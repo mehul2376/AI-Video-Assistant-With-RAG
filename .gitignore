@@ -1,0 +1,28 @@
+# Environment variables & API keys
+.env
+.env.local
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Data & downloads generated at runtime
+downloads/
+vector_db/
+*.wav
+*.mp3
+*.mp4
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
